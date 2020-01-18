@@ -16,8 +16,8 @@ while first == 0 do
     puts directors_database[first][:movies][second][:title]
     second+=1
     end
+    first+=1
   end
-  first+=1
 end
 
 print_first_directors_movie_titles()
