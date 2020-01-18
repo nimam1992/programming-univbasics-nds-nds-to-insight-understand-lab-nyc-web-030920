@@ -13,7 +13,7 @@ first=0
 while first == 0 do
   second = 0
   while second < directors_database[first][:movies].length do
-    puts directors_database[first][:movies][second][:title]
+    puts "-#{directors_database[first][:movies][second][:title]}"
     second+=1
     end
     first+=1
